@@ -6,7 +6,7 @@ public class Employee {
     Employee(String name,String location,double salary,int age) {
         this.name = name;
     }
-    void raiseSlary(){
+    void raiseSalary(){
 
     }
 }

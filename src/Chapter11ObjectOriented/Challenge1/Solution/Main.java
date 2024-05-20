@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Employee emp1=new Employee("shiva","USA",10000,30);
         System.out.println("Salary before raise: " +emp1.salary);
-        emp1.raiseSlary();
+        emp1.raiseSalary();
         System.out.println("Salary after raise :" +emp1.salary);
     }
 }

@@ -12,7 +12,7 @@ public class Employee {
         this.location=location;
         this.salary=salary;
     }
-    void raiseSlary(){
+    void raiseSalary(){
         this.salary=salary+5000;
     }
 }
