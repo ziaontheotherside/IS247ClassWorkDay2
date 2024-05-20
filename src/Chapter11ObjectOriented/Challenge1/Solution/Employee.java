@@ -1,4 +1,4 @@
-package Chapter11ObjectOriented;
+package Chapter11ObjectOriented.Challenge1.Solution;
 
 public class Employee {
     String name;
