@@ -2,6 +2,9 @@ package Chapter11ObjectOriented;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is tst");
+        Employee emp1=new Employee("shiva","USA",10000,30);
+        System.out.println("Salary before raise: " +emp1.salary);
+        emp1.raiseSlary();
+        System.out.println("Salary after raise :" +emp1.salary);
     }
 }
