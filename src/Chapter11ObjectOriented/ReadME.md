@@ -1,4 +1,4 @@
-CHALLENGE
+CHALLENGE CLASS/ CONSTRUCTOR/ METHODS
 
 1) Create an Employee Class
 2) Attributes: name ,age,salary,location
