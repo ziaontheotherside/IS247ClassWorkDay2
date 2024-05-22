@@ -7,4 +7,4 @@ CHALLENGE ENCAPSULATION
 4) Create constructor
 5) Create a main class that makes a Bank Account instance
 6) Call withdraw method using withdraw method
-7) Print out the resulting balance
+7) Print out the resulting balance and owner name
