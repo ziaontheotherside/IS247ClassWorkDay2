@@ -7,6 +7,6 @@ public class Main {
         System.out.println("Salary before raise: " +emp1.salary);
         emp1.raiseSalary();
         System.out.println("Salary after raise :" +emp1.salary);
-        System.out.println("Salarey of employee " +emp2.salary);
+        System.out.println("Salary of employee " +emp2.salary);
     }
 }
