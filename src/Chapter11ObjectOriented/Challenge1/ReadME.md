@@ -57,5 +57,3 @@ javac Main.java
 java Main
 ```
 
-Ensure the output matches the expected result. Happy coding! 🚀
-
