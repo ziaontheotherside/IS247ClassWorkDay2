@@ -1,7 +1,8 @@
 # Book Management Challenge
 
 ## Problem Statement
-You are tasked with creating a simple program to manage books in a library. Follow the steps below to implement the solution.
+You are tasked with creating a simple program to manage books in a library. 
+Follow the steps below to implement the solution.
 
 ## Requirements
 ### Create a `Book` Class
@@ -30,23 +31,7 @@ Title: The Great Gatsby, Author: F. Scott Fitzgerald
 
 ## Example Implementation
 
-class Book {
-    String title;
-    String author;
-
-    void displayDetails() {
-        System.out.println("Title: " + title + ", Author: " + author);
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Book myBook = new Book();
-        myBook.title = "The Great Gatsby";
-        myBook.author = "F. Scott Fitzgerald";
-        myBook.displayDetails();
-    }
-}
+[Solution](https://github.com/shivasharma/IS247ClassWork/tree/master/src/Chapter11ObjectOriented/Challenge1/Solution)
 
 ## Running the Program
 Compile and run the Java program using:
