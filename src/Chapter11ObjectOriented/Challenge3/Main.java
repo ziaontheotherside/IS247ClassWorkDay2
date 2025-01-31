@@ -1,11 +1,13 @@
+package Chapter11ObjectOriented.Challenge3;
+
 // Book class (Parent class)
-public class PolymorphismBook {
+ class Book {
     // Properties
     String title;
     String author;
 
     // Constructor to initialize title and author
-    public PolymorphismBook(String title, String author) {
+    public Book(String title, String author) {
         this.title = title;
         this.author = author;
     }
@@ -22,7 +24,7 @@ public class PolymorphismBook {
 }
 
 // EBook class (Child class inheriting from Book)
-class EBook extends PolymorphismBook {
+class EBook extends Book {
     // Additional property
     double fileSize; // in MB
 
@@ -49,7 +51,7 @@ class EBook extends PolymorphismBook {
 public class Main {
     public static void main(String[] args) {
         // Create a Book object
-        PolymorphismBook book = new PolymorphismBook("The Great Gatsby", "F. Scott Fitzgerald");
+        Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald");
         System.out.println("Book Details:");
         book.displayDetails();
         book.printSummary(); // Calls the Book class's printSummary method
@@ -62,7 +64,7 @@ public class Main {
 
         // Polymorphism in action
         System.out.println("\nPolymorphism Example:");
-        PolymorphismBook polymorphicBook = new EBook("1984", "George Orwell", 3.8);
+        Book polymorphicBook = new EBook("1984", "George Orwell", 3.8);
         polymorphicBook.printSummary(); // Calls the EBook class's printSummary method
     }
 }
