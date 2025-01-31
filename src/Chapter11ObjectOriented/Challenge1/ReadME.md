@@ -29,4 +29,6 @@ If the title is set to `"The Great Gatsby"` and the author is set to `"F. Scott 
 ```
 Title: The Great Gatsby, Author: F. Scott Fitzgerald
 ```
+## Solution Link
+🔗 [Click here to view the solution](https://github.com/shivasharma/IS247ClassWork/tree/master/src/Chapter11ObjectOriented/Challenge1/Solution)  
 
