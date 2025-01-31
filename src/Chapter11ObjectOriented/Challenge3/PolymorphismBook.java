@@ -48,7 +48,7 @@ class EBook extends Book {
 }
 
 // Main class to test the Book and EBook classes
-public class Main {
+public class PolymorphismBook {
     public static void main(String[] args) {
         // Create a Book object
         Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald");
